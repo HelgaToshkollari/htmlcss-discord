@@ -125,6 +125,7 @@ section .col-2{
 .end-row{
     padding: 1rem;
     text-align: center;
+    margin-bottom: 1rem;
 }
 .end-col{
     padding-top: 4rem;
@@ -149,23 +150,25 @@ section .col-2{
 footer{
     background-color: #23272Aff;
 }
+.top{
+    display: flex;
+    padding: 3rem 0;
+    border-bottom: 2px solid gray;
+}
+.main-col{
+    flex-basis: 30%;
+}
 .main-col h2{
     color: #8EA1E1ff;
     margin-bottom: 1rem;
-}
-.top{
-    display: flex;
-}
-.top .main-col{
-    flex-grow: 1;
-    padding: 2rem 0;
-    justify-content: start
+    
 }
 .main-col div img{
     width:10%;
 }
 .main-col .language{
     color: white;
+    font-size: 1rem;
 
 }
 .main-col ul{
@@ -183,7 +186,8 @@ footer{
 }
 .side-col ul{
     list-style: none;
-    padding: 2rem 2rem;
+    padding-right: 2rem;
+    
 }
 .side-col h4{
     color: #8EA1E1ff;
@@ -192,3 +196,19 @@ footer{
     padding: 0.3rem;
     color: white;
 }
+
+.bottom{
+    margin-top: 1rem;
+    display:flex;
+    justify-content: space-between;
+}
+footer .logo-container{
+    display:flex;
+    
+}
+.btn.registrati{
+    background-color:#8EA1E1ff;
+    color: white;
+}
+
+    
