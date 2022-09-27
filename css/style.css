@@ -5,15 +5,18 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
+   
 }
 .container{
     width: 920px;
-    margin: auto;
+    margin: 0 auto;
+}
+main .container{
+    color:#23272Aff;
 }
 header{
     background-color:  #3161E0ff;
     padding: 1rem;
-    
 }
 
 .row .logo-container{
@@ -23,8 +26,9 @@ header{
     text-align: right;
     line-height: 3rem;
 }
-header .row{
+.row{
     display: flex;
+   
 }
 .row .links-container {
     flex-grow: 1;
@@ -47,8 +51,144 @@ a{
 .btn{
     border: none;
     border-radius: 1rem;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1.5rem;
 }
 .btn.login{
     background-color: white;
+}
+main .intro {
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.small-container{
+    width: 700px;
+    text-align: center;
+    padding: 5rem;
+    color: white;
+}
+.small-container h1{
+    font-weight: 600;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.small-container p{
+    line-height: 1.5rem;
+}
+.btn-intro{
+    padding: 2rem;
+}
+.small-container .btn{
+    padding: 1rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+}
+.btn.mac{
+    background-color: white;
+    margin-right: 1rem;
+   
+}
+.btn.browser{
+    background-color: #23272Aff ;
+    color: white;
+}
+
+i{
+    padding-right: 0.5rem;
+}
+
+main .row{
+    padding-top: 5rem;
+}
+
+main .row h1{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    padding-top: 0.5rem;
+    
+}
+.grey{
+    background-color:#F6F6F6ff;
+}
+section .col-img{
+   flex-basis: 60%;
+   padding: 1rem;
+}
+section .col-img img{
+    width: 100%;
+}
+section .col-2{
+    flex-basis: 40%;
+    padding: 2rem;
+}
+.end-row{
+    padding: 1rem;
+    text-align: center;
+}
+.end-col{
+    padding-top: 4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+.end-col h1{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    padding-top: 0.5rem;
+    
+}
+.end-row .btn{
+    background-color:#8EA1E1ff;
+    color: white;
+}
+.end-row h2{
+    margin-bottom: 2rem;
+
+}
+footer{
+    background-color: #23272Aff;
+}
+.main-col h2{
+    color: #8EA1E1ff;
+    margin-bottom: 1rem;
+}
+.top{
+    display: flex;
+}
+.top .main-col{
+    flex-grow: 1;
+    padding: 2rem 0;
+    justify-content: start
+}
+.main-col div img{
+    width:10%;
+}
+.main-col .language{
+    color: white;
+
+}
+.main-col ul{
+    list-style: none;
+    padding-top: 1rem;
+}
+.main-col ul li{
+    display: inline-block;
+    color: white;
+    padding-right: 0.5rem;
+}
+.row .side-col{
+    display: flex;
+    flex-grow: 4;
+}
+.side-col ul{
+    list-style: none;
+    padding: 2rem 2rem;
+}
+.side-col h4{
+    color: #8EA1E1ff;
+}
+.side-col ul li{
+    padding: 0.3rem;
+    color: white;
 }
