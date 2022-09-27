@@ -98,8 +98,8 @@ i{
     padding-right: 0.5rem;
 }
 
-main .row{
-    padding-top: 5rem;
+main section{
+    padding: 5rem 0;
 }
 
 main .row h1{
@@ -123,12 +123,10 @@ section .col-2{
     padding: 2rem;
 }
 .end-row{
-    padding: 1rem;
     text-align: center;
     margin-bottom: 1rem;
 }
 .end-col{
-    padding-top: 4rem;
     text-align: center;
     margin-bottom: 1rem;
 
@@ -200,12 +198,8 @@ footer{
 .bottom{
     margin-top: 1rem;
     display:flex;
-    justify-content: space-between;
 }
-footer .logo-container{
-    display:flex;
-    
-}
+
 .btn.registrati{
     background-color:#8EA1E1ff;
     color: white;
