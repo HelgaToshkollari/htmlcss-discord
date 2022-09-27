@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 920px;
+    margin: auto;
+}
+header{
+    background-color:  #3161E0ff;
+    padding: 1rem;
+    
+}
+
+.row .logo-container{
+   margin-top: 0.5rem;
+}
+.btn-container{
+    text-align: right;
+    line-height: 3rem;
+}
+header .row{
+    display: flex;
+}
+.row .links-container {
+    flex-grow: 1;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{ 
+    text-decoration: none;
+    color: white; 
+}
+.links-container ul li{
+    display: inline-block;
+    line-height: 0.6rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.btn{
+    border: none;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+}
+.btn.login{
+    background-color: white;
+}
